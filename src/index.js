@@ -6,9 +6,9 @@ app.get("/", function(req, res, next) {
   res.send("Hello World!");
 });
 
-app.get("/users", function(req, res, next)){
+app.get("/users", function(req, res, next){
   res.send([]);
-}
+});
 
 
 
